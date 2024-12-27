@@ -80,10 +80,13 @@ export default function Home() {
         </video>
         <div className="lander">
           <h1>NoteTap</h1>
+          
           <p className="text-muted slogan">
             {" "}
             A note a day keeps the chaos away
+            
           </p>
+          <h4>By Deepankar</h4>
           <div className="buttons">
             <LinkContainer to="/login">
               <button className="btn btn-primary">Login</button>
